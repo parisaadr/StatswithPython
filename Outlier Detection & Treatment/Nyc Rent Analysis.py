@@ -10,7 +10,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load dataset (replace with actual file path if needed)
-rentals = pd.read_csv("nyc_rentals.csv")
+rentals = pd.read_csv("https://raw.githubusercontent.com/Codecademy/datasets/master/streeteasy/streeteasy.csv")
 
 # ------------------ Data Cleaning ------------------ #
 # Replace binary columns with more interpretable values
